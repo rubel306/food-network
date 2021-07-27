@@ -47,6 +47,13 @@ section{
     background-position:center;
     background-repeat: no-repeat;
 }
+.banner .section-title h2{
+    font-size: 60px;
+}
+.banner .section-title p{
+    margin-bottom: 50px;
+    line-height: 32px;
+}
 .banner .section-title h2, .banner .section-title p{
     color: #fff;
 }
