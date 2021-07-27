@@ -80,7 +80,7 @@ section{
     overflow: hidden;
 }
 
-.our-recipes-wrap .section-title {
+.section-title {
     text-align: center;
 }
 
@@ -101,20 +101,6 @@ section.facts {
     justify-content: space-around;
 }
 
-footer {
-    text-align: center;
-    background: #000;
-    overflow: hidden;
-    color: #fff;
-    font-size: 16px;
-    padding: 50px 0;
-}
-
-footer h2 {
-    font-size: 30px;
-    margin-bottom: 30px;
-}
-
 .single-facts h2 {
     color: #18191F;
     font-size: 48px;
@@ -131,4 +117,46 @@ footer h2 {
     font-size: 28px;
     font-weight: 900;
     line-height: 40px;
+}
+
+.featured-products{
+    background-image: url(images/featured-bg.jpg);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-bottom: 30px;
+}
+.featured-products h2, .featured-products h3 {
+    font-size: 40px;
+    color: #707070;
+}
+
+.featured-products h3 del {
+    font-size: 25px;
+    color: #ccc;
+}
+.date-remaining {
+    display: flex;
+    justify-content: space-between;
+}
+
+.date-remaining .time {
+    border: 2px solid #ED2F49;
+    border-radius: 50%;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+footer {
+    text-align: center;
+    background: #000;
+    overflow: hidden;
+    color: #fff;
+    font-size: 16px;
+    padding: 50px 0;
+}
+
+footer h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
 }
